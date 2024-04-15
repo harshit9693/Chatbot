@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day","Hii"],
+      "responses": ["Hello!", "Good to see you!", "How can I help?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Bye", "See you later", "Talk to you later"],
+      "responses": ["Sad to see you go :(", "Goodbye!", "Come back soon!"]
+
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What is your name?", "What should I call you?", "Who are you?","What are you","Introduce Yourself"],
+      "responses": ["I am your assistant to guide on the course related talk"]
+
+    },
+    {
+      "tag": "casual_greeting",
+      "patterns": ["What's up?", "How are you?", "How you doing?"],
+       "responses": ["I'm here to assist you with any questions or information you need. How can I assist you today?"]
+
+     },
+    {
+      "tag": "good_morning",
+      "patterns": ["Good morning", "Morning"],
+      "responses": ["Good morning! How can I assist you today?"]
+
+     },
+     {
+       "tag": "good_afternoon",
+       "patterns": ["Good afternoon", "Afternoon"],
+        "responses": ["Good afternoon! How can I assist you today?"]
+
+      },
+      {
+      "tag": "good_evening",
+      "patterns": ["Good evening", "Evening"],
+       "responses": ["Good evening! How can I assist you today?"]
+
+         },
+      {
+        "tag": "thank_you",
+        "patterns": ["Thank you", "Thanks"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+
+      },
+    {
+        "tag": "got_ans",
+        "patterns": ["ok", "okay"],
+        "responses": ["If you have any more questions, feel free to ask."]
+
+      },
+    {
+       "tag": "sorry",
+      "patterns": ["Sorry", "Apologies"],
+      "responses": ["No problem! If there's anything else you need assistance with, feel free to let me know."]
+
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact?", "What is the contact number?", "Can I get your contact number?"],
+      "responses": ["You can contact at 123456789."]
+
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer ?", "Can you tell me about the available courses?","what courses do you have ?"],
+      "responses": ["The Platform offers courses in Data Structure and Algorithm(DSA) , Web Development , Machine Learning , Deep Learning , Data Science and many more"]
+
+    },
+
+    {
+      "tag": "beginner_advanced",
+      "patterns": ["Suitable for beginner or advanced users ?", "Is this course for beginners or advanced users?"],
+      "responses": ["This course is suitable for both beginners and advanced users.", "Whether you are a beginner or an advanced user, this course is designed to cater to your needs."]
+    },
+    {
+      "tag": "own_pace",
+      "patterns": ["Can I learn at my own pace?", "Is the course self-paced?"],
+      "responses": ["Yes, you can learn at your own pace.", "The course is self-paced, so you can learn at your own convenience."]
+    },
+    {
+      "tag": "assignments",
+      "patterns": ["What type of assignment do you give ?", "What kind of assignments are there in this course?"],
+      "responses": ["The assignments in this course are a mix of practical and theoretical exercises.", "The assignments are designed to help you apply what you have learned in the course."]
+    },
+    {
+      "tag": "pre_requirements",
+      "patterns": ["What are the pre-requirement for this course ?", "What do I need to know before taking this course?"],
+      "responses": ["The pre-requirements for this course are basic programming knowledge and a willingness to learn.", "You should have basic programming knowledge before taking this course."]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": ["How long does this course take to complete ?", "What is the duration of this course?"],
+      "responses": ["The course takes approximately 3-4 months to complete.", "The duration of the course is 3-4 months."]
+    },
+    {
+      "tag": "course_cost",
+      "patterns": ["How much does the course cost ?", "What is the fee for this course?"],
+      "responses": ["The cost of the course is $500.", "The fee for this course is $500."]
+    },
+    {
+      "tag": "doubt_support",
+      "patterns": ["How is the doubt support ?", "What kind of doubt support do you provide?"],
+      "responses": ["We provide 24/7 doubt support through email and chat.", "Our doubt support team is available 24/7 to help you with any doubts or queries."]
+    },
+    {
+      "tag": "placement_opportunities",
+      "patterns": ["Does this course offer placement opportunities also ?", "Are there placement opportunities after completing this course?"],
+      "responses": ["Yes, this course offers placement opportunities.", "We have tie-ups with several companies that offer placement opportunities to our students."]
+    },
+    {
+      "tag": "course_difference",
+      "patterns": ["How is the course different from other platform courses ?", "What makes this course different from other courses?"],
+      "responses": ["This course is designed by industry experts and covers all the latest trends and technologies.", "Our course is different because it is designed by industry experts and covers all the latest trends and technologies."]
+    },
+    {
+      "tag": "top_course",
+      "patterns" : ["What are the top courses ?","Which courses are best here?"],
+      "responses" : ["We have two trending courses which includes Data Structure and Algorithm and Web Development."]
+    },
+    {
+      "tag": "dsa",
+      "patterns" : ["Details about DSA","Tell me more about DSA"],
+      "responses" : ["In a DSA course, you will learn about different data structures and algorithms. You will understand how to choose the right data structure for a given problem and how to implement algorithms to solve various computational problems efficiently.After learning DSA, you can pursue a career as a software developer, data scientist, or data analyst. DSA skills are highly sought after in the tech industry, and mastering them can open up a wide range of job opportunities."]
+    },
+    {
+      "tag": "web_development",
+      "patterns" : ["Details about Web Development","Tell me more about Web Development"],
+      "responses" : ["In a Web Development course, you will learn how to design and create websites using HTML, CSS, and JavaScript. You will also learn about web frameworks, databases, and server-side programming.After learning Web Development, you can pursue a career as a front-end developer, back-end developer, full-stack developer, or web designer. There is a high demand for skilled web developers in the tech industry."]
+    },
+    {
+      "tag": "money_back_guarantee",
+      "patterns": ["Is there any money back guarantee if I did not like the course ?", "Do you offer a money back guarantee if I am not satisfied with the course?"],
+      "responses": ["Yes, we offer a 30-day money back guarantee if you are not satisfied with the course.", "We offer a 30-day money back guarantee if you are not satisfied with the course."]
+    },
+    {
+      "tag": "course_relevance",
+      "patterns": ["Is this course relevant in todays market ?", "Is this course relevant to the current market trends?"],
+      "responses": ["Yes, this course is relevant to the current market trends.", "Our course covers all the latest trends and technologies that are relevant to the current market."]
+    },
+    {
+      "tag": "prerequisites",
+      "patterns": ["Is good DSA a prerequisite for this course?"],
+      "responses": ["While a good understanding of DSA can be beneficial, it is not a strict prerequisite for this course."]
+    },
+    {
+      "tag": "post_course_earnings",
+      "patterns": ["How much can I make after completing this course?"],
+      "responses": ["The earning potential after completing this course can vary greatly depending on factors such as your location, experience, and the specific role you are applying for."]
+    },
+    {
+      "tag": "payment_options",
+      "patterns": ["Can I pay in EMI for this course?"],
+      "responses": ["Yes, EMI options are available for this course."]
+
+    },
+    {
+        "tag": "financial_aid",
+      "patterns": ["Does this course offer financial aid for underprivileged people?"],
+      "responses": ["Yes, financial aid is available for underprivileged individuals. Please contact our support team for more information."]
+     },
+    {
+        "tag": "certification",
+      "patterns": ["Does this course offer any certificate?"],
+      "responses": ["Yes, upon successful completion of this course, you will receive a certificate."]
+    },
+    {
+        "tag": "testimonials",
+        "patterns": ["Where can I get testimonials for this course?"],
+        "responses": ["You can find testimonials from previous students on our course page or by contacting our support team."]
+    },
+    {
+      "tag": "mentor",
+      "patterns": ["Who is the mentor for this course?"],
+      "responses": ["The mentor for this course is [Mentor's Name], an industry expert with [number] years of experience."]
+
+    },
+    {
+        "tag": "course_format",
+    "patterns": ["Is it an online or offline course?"],
+    "responses": ["This course is offered in an online format, allowing you to learn at your own pace and from the comfort of your own home."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["How much is the course fee?", "Tell me about the fees", "What are the course fees?"],
+      "responses": ["Fees for the courses varies as per their requirements. If you need more detail about the course let me know , which course do you want to choose."]
+
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who is your developer?", "Who made you?"],
+      "responses": ["I was created by Harshit Kumar."]
+
+    },
+    {
+      "tag": "doubt_assistant",
+      "patterns": ["How can i contact to doubt assistant", "doubt assistant","doubt assistant contact number"],
+      "responses": ["You can contact to our doubt assistant through the mail, our mail is edtech.gmail.com"]
+    }
+
+  ]
+}
