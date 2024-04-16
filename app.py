@@ -14,5 +14,3 @@ def predict_route():
     return predict()
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
