@@ -38,7 +38,7 @@ To get started with the AI chat bot, simply type your query into the chat window
 ## Installation
 #### 1. Clone the repository
 ```bash
-  git clone [https://github.com/your-username/your-repository.git](https://github.com/harshit9693/AI-CHATBOT.git)
+  git clone [https://github.com/harshit9693/AI-CHATBOT.git]
 ```
 
 #### 2. Navigate into the project directory
